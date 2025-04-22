@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Button Styling */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Links and Section Styling */
+a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h2, h3 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form Inputs */
+input[type="text"] {
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.proposal-item {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.proposal-item h3 {
+  font-size: 20px;
+}
+
+.proposal-item button {
+  background-color: #28a745;
+  border: none;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.proposal-item button:disabled {
+  background-color: #ccc;
+}
